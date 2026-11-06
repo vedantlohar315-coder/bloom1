@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#087f8c" />
+  <meta name="description" content="Send an appointment or treatment enquiry to BLOOM Dental & Medical Clinic directly on WhatsApp." />
+  <title>Send an Enquiry | BLOOM Dental &amp; Medical Clinic</title>
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="inquiry-page">
+  <div class="topbar"><div class="container topbar-inner"><span><span class="status-dot"></span> BLOOM DENTAL &amp; MEDICAL CLINIC</span><a href="tel:+917028657619">Call us: +91 70286 57619</a></div></div>
+  <header class="site-header" id="top">
+    <div class="container nav-wrap">
+      <a class="brand" href="index.html" aria-label="BLOOM Dental and Medical Clinic home"><span class="brand-symbol"><img src="assets/tooth-mark.svg" alt="" /></span><span class="brand-text"><strong>BLOOM</strong><small>Dental &amp; Medical Clinic</small></span></a>
+      <button class="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="main-nav"><span></span><span></span></button>
+      <nav class="main-nav" id="main-nav" aria-label="Main navigation"><a href="index.html">Home</a><a href="index.html#about">About</a><a href="index.html#services">Services</a><a href="index.html#doctor">Our Doctor</a><a class="nav-cta active" href="inquiry.html">Send an Enquiry <span aria-hidden="true">↗</span></a></nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="inquiry-hero"><div class="container inquiry-hero-inner"><p class="eyebrow"><span class="eyebrow-line"></span> WE'RE HERE TO HELP</p><h1>Let's start with<br /><em>a conversation.</em></h1><p>Share a few details and your enquiry will be prepared in WhatsApp, ready for you to review and send to our clinic.</p></div></section>
+    <section class="inquiry-content"><div class="container inquiry-layout">
+      <div class="inquiry-aside reveal">
+        <p class="eyebrow">GET IN TOUCH</p><h2>We'd be glad<br />to <em>hear from you.</em></h2>
+        <p>For appointment requests, treatment questions or general information, contact BLOOM Dental &amp; Medical Clinic.</p>
+        <div class="contact-method"><span class="contact-icon">☎</span><div><small>CALL THE CLINIC</small><a href="tel:+917028657619">+91 70286 57619</a></div></div>
+        <div class="contact-method"><span class="contact-icon">↗</span><div><small>WHATSAPP</small><a href="https://wa.me/917028657619" target="_blank" rel="noopener">Chat with BLOOM</a></div></div>
+        <div class="contact-method"><span class="contact-icon">⌖</span><div><small>CLINIC ADDRESS</small><span>[Add verified clinic address]</span></div></div>
+        <div class="aside-note"><span>✳</span><p>For urgent or severe symptoms, seek appropriate in-person medical or dental care rather than relying on this online form.</p></div>
+      </div>
+      <div class="form-panel reveal reveal-delay">
+        <div class="form-panel-head"><div><span class="form-kicker">APPOINTMENT &amp; GENERAL ENQUIRY</span><h2>Send us a message</h2></div><span class="form-step">01 / 01</span></div>
+        <form id="inquiry-form" class="inquiry-form">
+          <div class="field-group"><label for="full-name">Your name <span>*</span></label><input id="full-name" name="name" type="text" placeholder="Enter your full name" autocomplete="name" required /></div>
+          <div class="field-row">
+            <div class="field-group"><label for="phone">Your phone number <span>*</span></label><input id="phone" name="phone" type="tel" inputmode="tel" placeholder="10-digit mobile number" autocomplete="tel" pattern="[0-9+() -]{8,18}" required /></div>
+            <div class="field-group"><label for="service">What is this about?</label><select id="service" name="service"><option value="General enquiry">General enquiry</option><option value="Dental check-up">Dental check-up</option><option value="Tooth pain or sensitivity">Tooth pain or sensitivity</option><option value="Cleaning and preventive care">Cleaning and preventive care</option><option value="Braces or aligners">Braces or aligners</option><option value="Cosmetic dentistry">Cosmetic dentistry</option><option value="Dental implants">Dental implants</option><option value="Root canal consultation">Root canal consultation</option><option value="Other">Other</option></select></div>
+          </div>
+          <div class="field-row">
+            <div class="field-group"><label for="preferred-date">Preferred date</label><input id="preferred-date" name="date" type="date" /></div>
+            <div class="field-group"><label for="preferred-time">Preferred time</label><select id="preferred-time" name="time"><option value="Flexible">Flexible</option><option value="Morning">Morning</option><option value="Afternoon">Afternoon</option><option value="Evening">Evening</option></select></div>
+          </div>
+          <div class="field-group"><label for="message">Your message <span>*</span></label><textarea id="message" name="message" rows="5" placeholder="Tell us briefly how we can help..." required></textarea></div>
+          <button class="button button-primary submit-button" type="submit">Continue to WhatsApp <span aria-hidden="true">↗</span></button>
+          <p class="form-footnote">This is a static website form. It opens WhatsApp with your details filled in; you will need to press Send in WhatsApp to deliver your enquiry.</p>
+        </form>
+      </div>
+    </div></section>
+  </main>
+
+  <footer class="site-footer"><div class="container footer-main"><div class="footer-brand-block"><a class="brand brand-footer" href="index.html"><span class="brand-symbol"><img src="assets/tooth-mark-light.svg" alt="" /></span><span class="brand-text"><strong>BLOOM</strong><small>Dental &amp; Medical Clinic</small></span></a><p>Healthy smile. Happier you.</p></div><div class="footer-links"><h3>Explore</h3><a href="index.html#about">About the clinic</a><a href="index.html#services">Dental services</a><a href="index.html#doctor">Our doctor</a></div><div class="footer-links"><h3>Contact</h3><a href="tel:+917028657619">+91 70286 57619</a><a href="https://wa.me/917028657619" target="_blank" rel="noopener">WhatsApp the clinic ↗</a><span class="footer-address">[Add clinic address]</span></div></div><div class="container footer-bottom"><span>© <span id="current-year">2026</span> BLOOM Dental &amp; Medical Clinic. All rights reserved.</span><a href="#top">Back to top ↑</a></div></footer>
+  <script src="script.js"></script>
+</body>
+</html>

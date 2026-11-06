@@ -1,0 +1,8 @@
+BLOOM Dental & Medical Clinic — asset notes
+
+The .webp dental/doctor/smile images in this folder are AI-generated illustrative assets cropped from a concept mockup. They are not verified photographs of the clinic, its staff or patients.
+
+Before publishing:
+- Replace doctor-portrait-placeholder.webp with the actual treating dentist's approved portrait.
+- Replace smile-before-illustrative.webp and smile-after-illustrative.webp with authentic, consented case photographs if the clinic wants to advertise real treatment outcomes.
+- Replace dental-care-hero.webp and clinic-interior-illustrative.webp with real clinic photos if available, or keep them as clearly illustrative imagery.
